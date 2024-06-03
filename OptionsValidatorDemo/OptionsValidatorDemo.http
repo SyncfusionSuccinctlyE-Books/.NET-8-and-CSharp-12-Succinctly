@@ -1,0 +1,6 @@
+@OptionsValidatorDemo_HostAddress = http://localhost:5208
+
+GET {{OptionsValidatorDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

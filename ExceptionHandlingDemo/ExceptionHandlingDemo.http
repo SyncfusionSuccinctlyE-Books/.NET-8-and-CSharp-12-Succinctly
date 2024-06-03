@@ -1,0 +1,6 @@
+@ExceptionHandlingDemo_HostAddress = http://localhost:5105
+
+GET {{ExceptionHandlingDemo_HostAddress}}/api/gettasks
+Accept: application/json
+
+###

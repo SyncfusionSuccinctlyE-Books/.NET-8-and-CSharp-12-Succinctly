@@ -1,0 +1,7 @@
+### Replace 7171 with your own port
+@WebApiStuff_HostAddress = https://localhost:7171 
+
+GET {{WebApiStuff_HostAddress}}/api/RunMorningTasks
+Accept: application/json
+
+###

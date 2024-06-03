@@ -1,0 +1,41 @@
+@DataAnnotationsDemo_HostAddress = http://localhost:5053
+
+POST {{DataAnnotationsDemo_HostAddress}}/demo/rangedemo
+Content-Type: application/json
+{
+  "threshold": 50
+}
+
+###
+POST {{DataAnnotationsDemo_HostAddress}}/demo/lengthdemo
+Content-Type: application/json
+{
+  "testresults": [
+        2,
+        5,
+        7
+  ]
+}
+
+###
+POST {{DataAnnotationsDemo_HostAddress}}/demo/allowedvaluesdemo
+Content-Type: application/json
+{
+  "countryiso": "USA"  
+}
+
+
+###
+POST {{DataAnnotationsDemo_HostAddress}}/demo/deniedvaluesdemo
+Content-Type: application/json
+{
+  "countryiso": "USA"  
+}
+
+
+###
+POST {{DataAnnotationsDemo_HostAddress}}/demo/base64demo
+Content-Type: application/json
+{
+  "systeminput": "rtdfghjuytrfvcxs8796"  
+}
